@@ -3,7 +3,7 @@
 	"publisher": "bamblack",
 	"displayName": "csharp-helper",
 	"description": "Visual Studio Code plugin that provides tools to assist with C# development",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
