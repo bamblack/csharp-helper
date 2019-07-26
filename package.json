@@ -18,13 +18,25 @@
 		"commands": [
 			{
 				"command": "csharpHelper.createNewClass",
-				"title": "C# Helper: New Class"
+				"title": "New C# Class"
 			},
 			{
 				"command": "csharpHelper.createNewInterface",
-				"title": "C# Helper: New Interface"
+				"title": "New C# Interface"
 			}
-		]
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "csharpHelper.createNewClass",
+					"group": "navigation@-2"
+				},
+				{
+					"command": "csharpHelper.createNewInterface",
+					"group": "navigation@-1"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
