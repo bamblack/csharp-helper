@@ -45,7 +45,6 @@
 		"vscode-test": "^1.0.0-next.0"
 	},
 	"dependencies": {
-		"find-parent-dir": "^0.3.0",
 		"find-up-glob": "^1.0.0"
 	}
 }

@@ -3,7 +3,6 @@ import * as path from 'path';
 import * as vscode from 'vscode';
 import { CSharpFileType } from './Models';
 
-const findParentDir = require('find-parent-dir');
 const findUpGlob = require('find-up-glob');
 
 export class FileCreator {
